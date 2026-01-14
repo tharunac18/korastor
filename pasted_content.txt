@@ -1,0 +1,58 @@
+This is the complete product blueprint for Kørastor. It is designed to be a premium, science-backed nicotine cessation tool that balances data-driven motivation with psychological support.
+1. Brand Identity: "The Nordic Anchor"
+ * Name: Kørastor (derived from "Kora" - to choose/select, and "Stor" - Great/Strong).
+ * Design Language: Nordic Minimalist. High contrast, plenty of white space (representing clean air), and rounded, organic shapes.
+ * Primary Interaction: The "Center Pulse." A single, multi-functional button that handles logging, cravings, and celebrations.
+2. Onboarding: The Setup (User Input)
+The onboarding isn't just a form; it's a "Contract with Yourself."
+ * Habit Profile:
+   * Type: Smoke, Vape, or Snus (or a combination).
+   * Intensity: Units per day (e.g., 15 cigarettes, 1 pod, or 0.5 tins).
+   * Cost: Price per unit in local currency.
+   * Nicotine Strength: High, Medium, Low (used to calculate withdrawal timelines).
+ * The Motivation (The "Why"):
+   * The user selects a "North Star": Wealth (Money), Vitality (Health), or Legacy (Family).
+ * The "Reward Vault":
+   * The user inputs a specific item they want to buy with the saved money (e.g., "New Tech - $500").
+3. Core Features & Architecture
+A. The Dashboard (The "Vessel")
+The main screen features a "Vessel" icon—a semi-transparent circle representing the user's body.
+ * Visual State: If the user is on a streak, the Vessel is clear and glowing. If they "slip," it becomes cloudy.
+ * Live Metrics: * Money Saved: A rolling ticker (e.g., $142.53).
+   * Life Regained: Time added back to life expectancy (calculated based on clinical data).
+   * The Streak: Total days/hours since last consumption.
+B. The "Pulse" Button (Intervention)
+Located at the bottom center, this button changes based on context:
+ * Hold for 3s: "I am having a craving." (Triggers the Dampener).
+ * Single Tap: Log a slip-up (with a "No Judgment" follow-up screen).
+ * Double Tap: View today's health milestone.
+C. Craving Dampeners: "The 90-Second Peak"
+Science shows cravings peak at 90 seconds. Kørastor offers:
+ * Tactile Breathing: The screen expands and contracts; the user must keep their thumb on the sensor, following the haptic vibrations.
+ * The Micro-Task: A random "Cognitive Distractor" (e.g., "Find 3 blue things in your room" or a quick "Swipe-to-Match" game).
+ * Voice of Reason: A 15-second audio clip from a former quitter or a health professional.
+4. The Health Restoration Map
+A dedicated tab visualizing internal healing through a "System Status" table:
+| System | Time to Restoration | Progress Bar | Current Status |
+|---|---|---|---|
+| Blood Oxygen | 8 Hours | 100% | RESTORATED |
+| Taste/Smell | 48 Hours | 85% | Nerves Reconnecting |
+| Lungs | 1 - 9 Months | 15% | Cilia Regeneration |
+| Heart Risk | 1 Year | 2% | Decreasing Load |
+5. Gamification: Milestones & "Køra-Points"
+ * Milestones: Instead of just "10 days," users unlock Shields.
+   * The Bronze Shield (3 Days): Nicotine is out of your system.
+   * The Silver Shield (3 Weeks): The habit loop is broken.
+ * Køra-Points: Earned for every craving resisted. These points can be used to "Freeze" a streak once a month if the user has a slip-up, preventing the "What's the point of trying" spiral.
+6. Technical Flow (Input to Output)
+The "Slip-Up" Protocol
+If a user logs a unit, the app doesn't show a red "X." It asks:
+ * "What was the trigger?" (Stress, Social, Alcohol, Boredom).
+ * "How do you feel?" (Anxious, Guilty, Fine).
+ * Actionable Advice: "You logged a Social slip. Next time you go out, try holding a cold water bottle to keep your hands busy."
+ * Data Adjustment: The "Money Saved" ticker pauses for a set duration based on the cost of that unit.
+7. The "Wishlist" Integration
+A progress bar linked directly to the user's "Reward Vault" (from Onboarding).
+ * Notification: "You just saved enough for 15% of your [New Tech]. You're $75 away from clicking 'Buy'."
+ * Visual: The item's image slowly gains color/clarity as the user saves money.
+Would you like me to write the "Day 1" notification sequence to show how Kørastor starts the journey for a new user?
