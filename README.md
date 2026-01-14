@@ -1,1 +1,1 @@
-# korastor
+# korastor project app files
